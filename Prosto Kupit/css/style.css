@@ -1,0 +1,2781 @@
+body {  
+ font-family: "Nunito Sans";  
+  margin: 0;  
+  padding: 0;  
+  color: #333;  
+}
+.header .header-1 {  
+    /* Header 1 */
+
+position: absolute;
+width: 1920px;
+height: 46px;
+left: 0px;
+top: 0px;
+
+/* заголовки */
+background: #18154B;
+}  
+.header .header-1 .mail-img {
+/* email */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 370px;
+top: 15px;
+}
+.header .header-1 .mail-text {  
+/* mein@miner.com */
+
+position: absolute;
+width: 109px;
+height: 19px;
+left: 396px;
+top: 14px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+}
+.header .header-1 .number-img {  
+/* phone */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 549px;
+top: 15px;
+}
+.header .header-1 .number-text {
+/* +7 (999) 999-99-99 */
+
+position: absolute;
+width: 136px;
+height: 18px;
+left: 574px;
+top: 14px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+.header .header-1 .telegram-img {
+  /* telegram */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 1480px;
+top: 10px;
+}
+.header .header-1 .whatsapp-img {
+  /* whatsapp */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 1524px;
+top: 10px;
+}
+.header .header-2 {
+  /* Header 2 */
+
+position: absolute;
+width: 2500px;
+height: 70px;
+left: 0px;
+top: 46px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+}
+.header .header-2 .logo {
+/* MEIN MINER */
+
+position: absolute;
+width: 151px;
+height: 27px;
+left: 370px;
+top: 22px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+text-transform: uppercase;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-emphasis-color: transparent;
+}
+.header .header-2 .groupmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* или space-around */
+  align-items: center;
+  padding: 24px;
+  gap: 40px;
+  
+  position: absolute;
+  width: 574px;
+  height: 22px;
+  left: 549px;
+  top: 0px;
+}
+
+.header .header-2 .groupmenu .katalog,
+.header .header-2 .groupmenu .price,
+.header .header-2 .groupmenu .kalkul,
+.header .header-2 .groupmenu .dostavka,
+.header .header-2 .groupmenu .otzivi {
+  /* Убираем absolute positioning */
+  position: static;
+  width: auto; /* или нужная вам ширина */
+  height: 22px;
+  
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #303239;
+  
+  /* Чтобы текст не переносился */
+  white-space: nowrap;
+  flex-shrink: 0; /* предотвращает сжатие */
+}
+.header .header-2 .button-call {
+    /* button */
+
+position: absolute;
+width: 160px;
+height: 40px;
+left: 1170px;
+top: 14px;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+border-radius: 50px;
+}
+.header .header-2 .button-call .button-call-text {
+/* Заказать звонок */
+
+position: absolute;
+width: 106px;
+height: 18px;
+left: 27px;
+top: 11px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+background-color: transparent;
+border: none;
+outline: none;
+}
+.header .header-2 .search {
+/* поиск */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1410px;
+top: 15px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 30px;
+}
+.header .header-2 .search .search-img {
+/* charm:search */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 10px;
+top: 10px;
+}
+.header .header-2 .heart {
+  /* поиск */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1460px;
+top: 15px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 30px;
+}
+.header .header-2 .heart .heart-img {
+  /* charm:search */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 10px;
+top: 10px;
+}
+.header .header-2 .cart {
+  /* корзина */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1510px;
+top: 15px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 30px;
+}
+.header .header-2 .cart .cart-img {
+ /* Cart2 */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 9px;
+top: 9px;
+}
+.company {
+/* О компании */
+
+position: absolute;
+width: 1180px;
+height: 494px;
+left: 376px;
+top: 156px;
+}
+.company .company-logo {
+/* о КОМПАНИИ */
+
+position: absolute;
+width: 200px;
+height: 49px;
+left: 0px;
+top: 0px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+text-transform: uppercase;
+/* заголовки */
+color: #18154B;
+/* Чтобы текст не переносился */
+  white-space: nowrap;
+  flex-shrink: 0; /* предотвращает сжатие */
+}
+.company .company-text {
+  /* С 2017 года Main-miner поставляет технику для майнинга на российский рынок оптом. За пять лет мы смогли укрепить свои позиции на рынке оборудования, вырастили персонал, прекрасно разбирающийся в каждом типе асиков и комплектующих. Если вы хотите купить асики оптом, то с нами можете быть уверены как в качестве техники, так и в надёжности сотрудничества. Лучше всего о нас говорит репутация! */
+
+position: absolute;
+width: 645px;
+height: 161px;
+left: 0px;
+top: 89px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+
+/* текст */
+color: #303239;
+}
+.company-img {
+  /* image */
+position: absolute;
+width: 460px;
+height: 250px;
+left: 720px;
+top: 0px;
+
+background: radial-gradient(52.98% 79.47% at 60.22% 53.83%, #42E8E0 0%, #42E8E0 3.11%, #308BA7 17.63%, #265587 32.63%, #201A6C 48.03%, #160E5A 63.97%, #11074F 80.79%, #0F054C 100%);
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+border-radius: 10px;
+}
+.company .svg-img .svgone {
+  /* Frame */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 22px;
+top: 352px;
+}
+.company .svg-img .svgtwo {
+  /* Frame */
+
+position: absolute;
+width: 38px;
+height: 38px;
+left: 221px;
+top: 351px;
+}
+.company .svg-img .svgthree {
+  /* Frame */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 421px;
+top: 352px;
+}
+.company .svg-img .svgfour {
+  /* Frame */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 623px;
+top: 352px;
+}
+.company .svg-img .svgfive {
+  /* Frame */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 822px;
+top: 352px;
+}
+.company .svg-img .svgsix {
+  /* Frame */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1022px;
+top: 352px;
+}
+.company .svg-text .svgonetext {
+  /* Работаем без выходных – 7 дней в неделю */
+
+position: absolute;
+width: 123px;
+height: 69px;
+left: 0px;
+top: 425px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+
+/* текст */
+color: #303239;
+}
+.company .svg-text .svgtwotext {
+  /* Прямое сотрудничество с поставщиками */
+
+position: absolute;
+width: 128px;
+height: 69px;
+left: 200px;
+top: 425px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+
+/* текст */
+color: #303239;
+}
+.company .svg-text .svgthreetext {
+  /* Быстрая авиадоставка от 14 дней */
+
+position: absolute;
+width: 107px;
+height: 69px;
+left: 399px;
+top: 425px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+
+/* текст */
+color: #303239;
+}
+.company .svg-text .svgfourtext {
+  /* Предоплата за предзаказ от 30% */
+
+position: absolute;
+width: 110px;
+height: 69px;
+left: 601px;
+top: 425px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+
+/* текст */
+color: #303239;
+}
+.company .svg-text .svgfivetext {
+  /* Официальный договор, полная защита средств */
+
+position: absolute;
+width: 134px;
+height: 69px;
+left: 800px;
+top: 425px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+
+/* текст */
+color: #303239;
+}
+.company .svg-text .svgsixtext {
+  /* Видеопроверка для удаленных клиентов */
+
+position: absolute;
+width: 139px;
+height: 69px;
+left: 1000px;
+top: 425px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145%;
+/* or 23px */
+
+/* текст */
+color: #303239;
+}
+.bannerone {
+  /* Баннер */
+
+position: absolute;
+width: 780px;
+height: 440px;
+left: 376px;
+top: 730px;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+border-radius: 10px;
+}
+.bannerone .bannerone-text {
+  /* оборудование для майнинга оптом */
+
+position: absolute;
+width: 341px;
+height: 156px;
+left: 60px;
+top: 80px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 52px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.bannerone .bannerone-text2 {
+  /* с гарантией 12 месяцев */
+
+position: absolute;
+width: 205px;
+height: 25px;
+left: 60px;
+top: 256px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.bannerone .bannerone-1 {
+  /* image */
+
+position: absolute;
+width: 592px;
+height: 440px;
+left: 3px;
+top: 0px;
+
+background: url(image.png);
+background-blend-mode: hard-light;
+}
+.bannerone .bannerone-2 {
+  /* image */
+
+position: absolute;
+width: 263px;
+height: 250px;
+left: 472px;
+top: 95px;
+
+background: url(image.png);
+}
+.bannerone .bannerone-button {
+  /* button */
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 60px;
+top: 311px;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+.bannerone .bannerone-button .banbut-text {
+  /* Перейти в каталог */
+
+position: absolute;
+width: 137px;
+height: 20px;
+left: 32px;
+top: 15px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+
+/* заголовки */
+color: #18154B;
+}
+.bannertwo {
+  /* Баннер */
+
+position: absolute;
+width: 380px;
+height: 440px;
+left: 1176px;
+top: 730px;
+
+background: linear-gradient(0deg, #1A0B73, #1A0B73), radial-gradient(106.32% 141.75% at -6.32% -2.5%, #42E8E0 0%, #40DDDA 0%, #3AAEC0 9.21%, #3484A9 17.3%, #2F6195 25.73%, #2B4486 34.58%, #282E79 44%, #261E71 54.25%, #24156C 65.94%, #24126A 82.26%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+border-radius: 10px;
+}
+.bannertwo .bantwo-text1 {
+  /* выгодное предложение */
+
+position: absolute;
+width: 231px;
+height: 76px;
+left: 40px;
+top: 40px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 38px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.bannertwo .bantwo-text2 {
+  /* -20% */
+
+position: absolute;
+width: 145px;
+height: 76px;
+left: 40px;
+top: 126px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 76px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.bannertwo .bantwo-text3 {
+  /* на все товары Antminer */
+
+position: absolute;
+width: 138px;
+height: 46px;
+left: 205px;
+top: 142px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 125%;
+/* or 22px */
+
+color: #FFFFFF;
+}
+.bannertwo .bantwo-svg {
+  /* svg */
+
+position: absolute;
+width: 216px;
+height: 200px;
+left: 8px;
+top: 217px;
+}
+.bannertwo .bantwo-svg .bantwo-svg1 {
+/* Group */
+
+position: absolute;
+left: 47.03%;
+right: 10.78%;
+top: 0%;
+bottom: 28.07%;
+}
+.bannertwo .bantwo-svg .bantwo-svg2 {
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 34.49%;
+bottom: 0%;
+}
+.bannertwo .bantwo-svg .bantwo-svg3 {
+/* Group */
+
+position: absolute;
+left: 22.08%;
+right: 21.32%;
+top: 28.09%;
+bottom: 36.43%;
+}
+.bannertwo .bantwo-button {
+/* button */
+
+position: absolute;
+width: 117px;
+height: 22px;
+left: 233px;
+top: 388px;
+}
+.bannertwo .bantwo-button .bantwo-button-text {
+/* В каталог */
+position: absolute;
+width: 77px;
+height: 22px;
+left: 233px;
+top: 388px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+}
+.form {
+/* Форма заявки */
+
+position: absolute;
+width: 1180px;
+height: 330px;
+left: 376px;
+top: 1250px;
+
+filter: drop-shadow(0px 4px 20px rgba(0, 7, 94, 0.1));
+}
+.form-fon {
+/* bg image */
+
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0%;
+
+background: linear-gradient(89.24deg, rgba(13, 116, 139, 0.6) -14.97%, rgba(26, 11, 115, 0.6) 81.3%), url(4884451.jpg);
+border-radius: 10px;
+}
+.form .form-text1 {
+  /* не нашли то, что искали? */
+
+position: absolute;
+width: 549px;
+height: 38px;
+left: 60px;
+top: 50px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 38px;
+text-transform: uppercase;
+white-space: nowrap;
+
+color: #FFFFFF;
+}
+.form .form-text2 {
+  /* свяжитесь с нами, мы вам поможем! */
+
+position: absolute;
+width: 620px;
+height: 38px;
+left: 60px;
+top: 93px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 38px;
+text-transform: uppercase;
+white-space: nowrap;
+
+color: #FFFFFF;
+}
+.form .form-text3 {
+  /* Заполните форму и мы свяжемся с Вами в ближайшее время */
+
+position: absolute;
+width: 529px;
+height: 25px;
+left: 60px;
+top: 141px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.form .form-name {
+  /* input */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240px;
+height: 50px;
+left: 60px;
+top: 191px;
+
+background: rgba(255, 255, 255, 0.3);
+border: 1px solid rgba(243, 243, 243, 0.7);
+border-radius: 50px;
+}
+.form .form-name::placeholder {
+  /* Ваше имя */
+
+position: absolute;
+width: 65px;
+height: 19px;
+left: 20px;
+top: 16px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 135%;
+/* identical to box height, or 19px */
+
+color: #F3F3F3;
+}
+.form .form-number {
+  /* input */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 240px;
+height: 50px;
+left: 320px;
+top: 191px;
+
+background: rgba(255, 255, 255, 0.3);
+border: 1px solid rgba(243, 243, 243, 0.7);
+border-radius: 50px;
+}
+.form .form-number::placeholder {
+  /* Ваш телефон */
+
+position: absolute;
+width: 89px;
+height: 19px;
+left: 20px;
+top: 16px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 135%;
+/* identical to box height, or 19px */
+
+color: #F3F3F3;
+}
+.form .form-button {
+  /* button */
+
+position: absolute;
+width: 240px;
+height: 50px;
+left: 580px;
+top: 191px;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+.form .form-button-text {
+  /* Отправить */
+position: absolute;
+width: 79px;
+height: 20px;
+left: calc(50% - 79px/2 - 0.5px);
+top: calc(50% - 20px/2);
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+
+color: #18154B;
+}
+.questions {
+  /* вопросы */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 1180px;
+height: 776px;
+left: 370px;
+top: 1660px;
+
+border-radius: 48px;
+}
+.questions .questions1 {
+  /* Часто задаваемые Вопросы */
+
+width: 604px;
+height: 49px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+text-transform: uppercase;
+
+/* заголовки */
+color: #18154B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.questions .frame100-1 {
+  /* Frame 116 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1180px;
+height: 677px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.questions .frame100-2 {
+  /* Frame 116 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1180px;
+height: 677px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.questions .frame100-3 {
+  /* Component 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px;
+gap: 12px;
+
+width: 1180px;
+height: 80px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame100-4 {
+  /* Frame 208 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 1120px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.questions .frame100-question {
+  /* Сколько стоит разработка сайта? */
+
+width: 431px;
+height: 33px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+summary {
+  list-style-type:none;
+}
+.questions .frame100-text {
+  /* Стоимость разработки сайта зависит от его сложности, функционала и требований. Лендинг может стоить от 10 000 рублей, корпоративный сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций, используемой CMS или индивидуальной разработки. Точную стоимость можно определить после обсуждения деталей проекта. */
+
+width: 1120px;
+height: 100px;
+
+font-family: 'Geologica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame200-3 {
+  /* Component 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px;
+gap: 6px;
+
+width: 1180px;
+height: 80px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame200-4 {
+  /* Frame 208 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 1120px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.questions .frame200-question {
+  /* Сколько стоит разработка сайта? */
+
+width: 431px;
+height: 33px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+summary {
+  list-style-type:none;
+}
+.questions .frame200-text {
+  /* Стоимость разработки сайта зависит от его сложности, функционала и требований. Лендинг может стоить от 10 000 рублей, корпоративный сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций, используемой CMS или индивидуальной разработки. Точную стоимость можно определить после обсуждения деталей проекта. */
+
+width: 1120px;
+height: 100px;
+
+font-family: 'Geologica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame300-3 {
+  /* Component 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px;
+gap: 6px;
+
+width: 1180px;
+height: 80px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame300-4 {
+  /* Frame 208 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 1120px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.questions .frame300-question {
+  /* Сколько стоит разработка сайта? */
+
+width: 431px;
+height: 33px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+summary {
+  list-style-type:none;
+}
+.questions .frame300-text {
+  /* Стоимость разработки сайта зависит от его сложности, функционала и требований. Лендинг может стоить от 10 000 рублей, корпоративный сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций, используемой CMS или индивидуальной разработки. Точную стоимость можно определить после обсуждения деталей проекта. */
+
+width: 1120px;
+height: 100px;
+
+font-family: 'Geologica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame400-3 {
+  /* Component 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px;
+gap: 6px;
+
+width: 1180px;
+height: 80px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame400-4 {
+  /* Frame 208 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 1120px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.questions .frame400-question {
+  /* Сколько стоит разработка сайта? */
+
+width: 431px;
+height: 33px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+summary {
+  list-style-type:none;
+}
+.questions .frame400-text {
+  /* Стоимость разработки сайта зависит от его сложности, функционала и требований. Лендинг может стоить от 10 000 рублей, корпоративный сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций, используемой CMS или индивидуальной разработки. Точную стоимость можно определить после обсуждения деталей проекта. */
+
+width: 1120px;
+height: 100px;
+
+font-family: 'Geologica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame500-3 {
+  /* Component 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px;
+gap: 6px;
+
+width: 1180px;
+height: 80px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.questions .frame500-4 {
+  /* Frame 208 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 1120px;
+height: 162px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.questions .frame500-question {
+  /* Сколько стоит разработка сайта? */
+
+width: 431px;
+height: 33px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+summary {
+  list-style-type:none;
+}
+.questions .frame500-text {
+  /* Стоимость разработки сайта зависит от его сложности, функционала и требований. Лендинг может стоить от 10 000 рублей, корпоративный сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций, используемой CMS или индивидуальной разработки. Точную стоимость можно определить после обсуждения деталей проекта. */
+
+width: 1120px;
+height: 100px;
+
+font-family: 'Geologica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+/* dark blue */
+color: #1F2023;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.hits {
+  /* Group 4 */
+
+position: absolute;
+width: 1352px;
+height: 491px;
+left: 284px;
+top: 2600px;
+}
+.hits .leftarrow {
+/* Group 3 */
+
+position: absolute;
+width: 54px;
+height: 54px;
+left: 284px;
+top: 2771px;
+
+transform: rotate(-180deg);
+}
+.hits .rightarrow {
+/* Group 2 */
+
+position: absolute;
+width: 54px;
+height: 54px;
+left: 1582px;
+top: 2769px;
+}
+.hits .hits-a-logo {
+  /* хиты продаж */
+
+position: absolute;
+width: 292px;
+height: 49px;
+left: 0px;
+top: 0px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+text-transform: uppercase;
+
+/* заголовки */
+color: #18154B;
+}
+.hits .card1 {
+  /* карточка товара */
+
+position: absolute;
+width: 220px;
+height: 360px;
+left: 0px;
+top: 89px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+border-radius: 10px;
+}
+.hits .card1-akc {
+  /* акция */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px 10px;
+gap: 10px;
+
+position: absolute;
+width: 46px;
+height: 22px;
+left: 15px;
+top: 15px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 4px;
+}
+.hits .card1-akc-a {
+  /* ХИТ */
+
+width: 26px;
+height: 16px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+/* градиент */
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.hits .card1-heart {
+/* избранное */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 183px;
+top: 15px;
+
+border-radius: 30px;
+}
+.hits .card1-heart-a {
+/* heart */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2);
+top: calc(50% - 20px/2);
+}
+.hits .card1-img {
+  /* image */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 30px;
+top: 30px;
+
+background: url(Antminer-L7-650x6501.jpg);
+}
+.hits .card1-name {
+  /* Antminer L7 8800 Mh/s */
+
+position: absolute;
+width: 151px;
+height: 19px;
+left: 20px;
+top: 200px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card1-price {
+  /* 615 000 ₽ */
+
+position: absolute;
+width: 67px;
+height: 19px;
+left: 20px;
+top: 249px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card1-cart {
+/* корзина */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 164px;
+top: 240px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 30px;
+}
+.hits .card1-cart-a {
+/* Cart2 */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: calc(50% - 18px/2);
+top: calc(50% - 18px/2);
+}
+.hits .card1-button {
+  /* button */
+
+position: absolute;
+width: 180px;
+height: 44px;
+left: 20px;
+top: 286px;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+border-radius: 50px;
+}
+.hits .card1-button-text {
+/* Купить в 1 клик */
+
+position: absolute;
+width: 109px;
+height: 19px;
+left: calc(50% - 109px/2 + 0.5px);
+top: calc(50% - 19px/2 + 0.5px);
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.hits .card2 {
+  /* карточка товара */
+
+position: absolute;
+width: 220px;
+height: 360px;
+left: 240px;
+top: 89px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+border-radius: 10px;
+}
+.hits .card2-akc {
+/* акция */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px 10px;
+gap: 10px;
+
+position: absolute;
+width: 52px;
+height: 22px;
+left: 15px;
+top: 15px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 4px;
+}
+.hits .card2-akc-a {
+/* ХИТ */
+
+width: 32px;
+height: 16px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+/* градиент */
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.hits .card2-heart {
+/* избранное */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 183px;
+top: 15px;
+
+border-radius: 30px;
+}
+.hits .card2-heart-a {
+/* heart */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2);
+top: calc(50% - 20px/2);
+}
+.hits .card2-img {
+  /* image */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 30px;
+top: 30px;
+
+background: url(image.png);
+}
+.hits .card2-name {
+  /* Antminer L7 8800 Mh/s */
+
+position: absolute;
+width: 177px;
+height: 19px;
+left: 20px;
+top: 200px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card2-price {
+  /* 615 000 ₽ */
+
+position: absolute;
+width: 67px;
+height: 19px;
+left: 20px;
+top: 249px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card2-cart {
+  /* корзина */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 164px;
+top: 240px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 30px;
+}
+.hits .card2-cart-a {
+/* Cart2 */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: calc(50% - 18px/2);
+top: calc(50% - 18px/2);
+}
+.hits .card2-button {
+  /* button */
+
+position: absolute;
+width: 180px;
+height: 44px;
+left: 20px;
+top: 286px;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+border-radius: 50px;
+}
+.hits .card2-button-text {
+/* Купить в 1 клик */
+
+position: absolute;
+width: 109px;
+height: 19px;
+left: calc(50% - 109px/2 + 0.5px);
+top: calc(50% - 19px/2 + 0.5px);
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.hits .card3 {
+  /* карточка товара */
+
+position: absolute;
+width: 220px;
+height: 360px;
+left: 480px;
+top: 89px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+border-radius: 10px;
+}
+.hits .card3-akc {
+  /* акция */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px 10px;
+gap: 10px;
+
+position: absolute;
+width: 51px;
+height: 22px;
+left: 15px;
+top: 15px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 4px;
+}
+.hits .card3-akc-a {
+  /* ХИТ */
+
+width: 31px;
+height: 16px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+/* градиент */
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.hits .card3-heart {
+  /* избранное */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 183px;
+top: 15px;
+
+border-radius: 30px;
+}
+.hits .card3-heart-a {
+  /* heart */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2);
+top: calc(50% - 20px/2);
+}
+.hits .card3-img {
+  /* image */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 30px;
+top: 30px;
+
+background: url(Whatsminer_M3-650x650.jpg)
+}
+.hits .card3-name {
+  /* Antminer L7 8800 Mh/s */
+
+position: absolute;
+width: 177px;
+height: 19px;
+left: 20px;
+top: 200px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card3-price {
+  /* 615 000 ₽ */
+
+position: absolute;
+width: 58px;
+height: 19px;
+left: 20px;
+top: 249px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card3-cart {
+  /* корзина */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 164px;
+top: 240px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 30px;
+}
+.hits .card3-cart-a {
+  /* Cart2 */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: calc(50% - 18px/2);
+top: calc(50% - 18px/2);
+}
+.hits .card3-button {
+  /* button */
+
+position: absolute;
+width: 180px;
+height: 44px;
+left: 20px;
+top: 286px;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+border-radius: 50px;
+}
+.hits .card3-button-text {
+  /* Купить в 1 клик */
+
+position: absolute;
+width: 109px;
+height: 19px;
+left: calc(50% - 109px/2 + 0.5px);
+top: calc(50% - 19px/2 + 0.5px);
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.hits .card4 {
+  /* карточка товара */
+
+position: absolute;
+width: 220px;
+height: 360px;
+left: 720px;
+top: 89px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+border-radius: 10px;
+}
+.hits .card4-akc {
+/* акция */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px 10px;
+gap: 10px;
+
+position: absolute;
+width: 52px;
+height: 22px;
+left: 15px;
+top: 15px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 4px;
+}
+.hits .card4-akc-a {
+  /* ХИТ */
+
+width: 32px;
+height: 16px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+/* градиент */
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.hits .card4-heart {
+  /* избранное */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 183px;
+top: 15px;
+
+border-radius: 30px;
+}
+.hits .card4-heart-a {
+  /* heart */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2);
+top: calc(50% - 20px/2);
+}
+.hits .card4-img {
+  /* image */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 30px;
+top: 30px;
+
+background: url(ANTMINER_Z11-650x650.jpg);
+}
+.hits .card4-name {
+  /* Antminer L7 8800 Mh/s */
+
+position: absolute;
+width: 155px;
+height: 19px;
+left: 20px;
+top: 200px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card4-price {
+  /* 615 000 ₽ */
+
+position: absolute;
+width: 67px;
+height: 19px;
+left: 20px;
+top: 249px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card4-cart {
+/* корзина */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 164px;
+top: 240px;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+border-radius: 30px;
+}
+.hits .card4-cart-a {
+  /* Cart2 */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: calc(50% - 18px/2);
+top: calc(50% - 18px/2);
+}
+.hits .card4-button {
+  /* button */
+
+position: absolute;
+width: 180px;
+height: 44px;
+left: 20px;
+top: 286px;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+border-radius: 50px;
+}
+.hits .card4-button-text {
+  /* Купить в 1 клик */
+
+position: absolute;
+width: 109px;
+height: 19px;
+left: calc(50% - 109px/2 + 0.5px);
+top: calc(50% - 19px/2 + 0.5px);
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.hits .card5 {
+  /* карточка товара */
+
+position: absolute;
+width: 220px;
+height: 360px;
+left: 960px;
+top: 89px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+border-radius: 10px;
+}
+.hits .card5-akc {
+  /* акция */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px 10px;
+gap: 10px;
+
+position: absolute;
+width: 46px;
+height: 22px;
+left: 15px;
+top: 15px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 4px;
+}
+.hits .card5-akc-a {
+  /* ХИТ */
+
+width: 26px;
+height: 16px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+/* градиент */
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.hits .card5-heart {
+  /* избранное */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 183px;
+top: 15px;
+
+border-radius: 30px;
+}
+.hits .card5-heart-a {
+  /* heart */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2);
+top: calc(50% - 20px/2);
+}
+.hits .card5-img {
+  /* image */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 30px;
+top: 30px;
+
+background: url(a10_big_01-650x650.jpg);
+}
+.hits .card5-name {
+  /* Antminer L7 8800 Mh/s */
+
+position: absolute;
+width: 180px;
+height: 19px;
+left: 20px;
+top: 200px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card5-price {
+  /* 615 000 ₽ */
+
+position: absolute;
+width: 67px;
+height: 19px;
+left: 20px;
+top: 249px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+/* текст */
+color: #303239;
+}
+.hits .card5-cart {
+/* корзина */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 164px;
+top: 240px;
+
+/* фон */
+background: #F0F5FB;
+border-radius: 30px;
+}
+.hits .card5-cart-a {
+/* Cart2 */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: calc(50% - 18px/2);
+top: calc(50% - 18px/2);
+}
+.hits .card5-button {
+  /* button */
+
+position: absolute;
+width: 180px;
+height: 44px;
+left: 20px;
+top: 286px;
+
+/* градиент */
+background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+border-radius: 50px;
+}
+.hits .card5-button-text {
+  /* Купить в 1 клик */
+
+position: absolute;
+width: 109px;
+height: 19px;
+left: calc(50% - 109px/2 + 0.5px);
+top: calc(50% - 19px/2 + 0.5px);
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.footer {
+  /* Footer */
+
+position: absolute;
+width: 1920px;
+height: 336px;
+left: 0px;
+top: 3087px;
+
+/* заголовки */
+background: #18154B;
+}
+.footer .foot-logo {
+  /* MEIN MINER */
+
+position: absolute;
+width: 133px;
+height: 30px;
+left: 370px;
+top: 70px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height */
+text-transform: uppercase;
+white-space: nowrap;
+
+color: #FFFFFF;
+}
+.footer .foot-minilogo {
+  /* © Mein Miner, 2025 */
+
+position: absolute;
+width: 134px;
+height: 20px;
+left: 370px;
+top: 116px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #B8B8B8;
+}
+.footer .foot-pokupat {
+  /* Покупателям */
+
+position: absolute;
+width: 129px;
+height: 22px;
+left: 670px;
+top: 74px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #B8B8B8;
+}
+.footer .menu {
+  /* menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 91px;
+height: 160px;
+left: 670px;
+top: 116px;
+}
+.footer .menu-comp {
+  /* О компании */
+
+width: 85px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.footer .menu-price {
+  /* Цены */
+
+width: 40px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.footer .menu-kalkul {
+  /* Калькулятор */
+
+width: 91px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.footer .menu-dostavka {
+  /* Доставка */
+
+width: 67px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.footer .menu-otzivi {
+  /* Отзывы */
+
+width: 56px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+.footer .menu-contacts {
+  /* Контакты */
+
+width: 68px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+.footer .foot-katalog {
+  /* каталог товаров */
+
+position: absolute;
+width: 163px;
+height: 22px;
+left: 970px;
+top: 74px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.02em;
+text-transform: uppercase;
+white-space: nowrap;
+
+color: #B8B8B8;
+}
+.footer .menu2 {
+  /* menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 227px;
+height: 160px;
+left: 970px;
+top: 116px;
+}
+.foot-katalog .menu2-asic {
+  /* Asic miners */
+
+width: 78px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.foot-katalog .menu2-gpu {
+  /* GPU фермы */
+
+width: 85px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.foot-katalog .menu2-videocard {
+  /* Видеокарты */
+
+width: 87px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.foot-katalog .menu2-akc {
+  /* Аксессуары */
+
+width: 84px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.foot-katalog .menu2-compcomp {
+  /* Компьютерные комплектующие */
+
+width: 227px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+.foot-katalog .menu2-compmay {
+  /* Комплектующие для майнинга */
+
+width: 218px;
+height: 20px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+.footer .foot-button {
+  /* button */
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 1350px;
+top: 60px;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+.footer .foot-button-text {
+  /* Заказать звонок */
+
+position: absolute;
+width: 122px;
+height: 20px;
+left: calc(50% - 122px/2);
+top: calc(50% - 20px/2);
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+
+color: #18154B;
+}
+.footer .public {
+  /* Публичная оферта */
+
+position: absolute;
+width: 135px;
+height: 20px;
+left: 1415px;
+top: 228px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: right;
+
+color: #B8B8B8;
+}
+.footer .polit {
+  /* Политика конфиденциальности */
+
+position: absolute;
+width: 227px;
+height: 20px;
+left: 1323px;
+top: 256px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: right;
+
+color: #B8B8B8;
+}
